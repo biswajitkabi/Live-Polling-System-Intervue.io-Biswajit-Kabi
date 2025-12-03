@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* optional small resets */
+html, body, #root {
+  height: 100%;
+}
+
+/* load Sora font via index.html (below). Fallback: system sans */
