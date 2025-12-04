@@ -33,8 +33,8 @@ const RoleSelector = () => {
         </div>
 
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Welcome to the <span className="font-extrabold">Live Polling System</span>
+          <h1 className="text-4xl  text-gray-900 mb-4">
+            Welcome to the <span className="font-bold">Live Polling System</span>
           </h1>
           <p className="text-gray-500 text-lg">
             Select your role to continue
