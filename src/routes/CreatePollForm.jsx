@@ -108,7 +108,10 @@ const CreatePollForm = () => {
             <span className="font-semibold text-sm">Intervue Poll</span>
           </div>
 
-          <h1 className="text-4xl font-bold text-gray-900 mb-3">Let's Get Started</h1>
+          <h1 className="text-4xl md:text-5xl text-gray-900 mb-6">
+            <span className="font-normal">Let's</span>{" "}
+            <span className="font-bold">Get Started</span>
+          </h1>
           <p className="text-gray-600 text-base">
             You'll have the ability to create and manage polls, ask questions, and
             monitor your students' responses in real-time.
