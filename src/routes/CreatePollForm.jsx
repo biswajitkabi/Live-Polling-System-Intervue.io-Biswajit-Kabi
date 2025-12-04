@@ -98,7 +98,7 @@ const CreatePollForm = () => {
   return (
     <div
       className="min-h-screen bg-gray-50 p-6"
-      style={{ fontFamily: "Sora, sans-serif" }}
+      style={{ fontFamily: "Sora" }}
     >
       <div className="max-w-4xl mx-auto">
         {/* Header */}

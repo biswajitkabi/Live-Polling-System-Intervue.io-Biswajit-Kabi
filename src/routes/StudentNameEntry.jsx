@@ -47,7 +47,7 @@ const StudentNameEntry = () => {
   return (
     <div
       className="min-h-screen bg-gray-50 flex items-center justify-center p-4"
-      style={{ fontFamily: "Sora, sans-serif" }}
+      style={{ fontFamily: "Sora" }}
     >
       <div className="w-full max-w-lg">
         {/* Logo Badge */}
@@ -60,13 +60,17 @@ const StudentNameEntry = () => {
 
         {/* Main Content */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Let's Get Started
+          <h1 className="text-4xl md:text-5xl text-gray-900 mb-6">
+            <span className="font-normal">Let's</span>{" "}
+            <span className="font-bold">Get Started</span>
           </h1>
+
           <p className="text-gray-600 text-lg leading-relaxed">
-            You'll be able to <span className="font-semibold text-gray-900">
+            You'll be able to{" "}
+            <span className="font-semibold text-gray-900">
               submit your answers
-            </span>, participate in live polls, and compare results instantly.
+            </span>
+            , participate in live polls, and compare results instantly.
           </p>
         </div>
 
