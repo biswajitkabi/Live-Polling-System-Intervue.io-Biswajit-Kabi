@@ -141,14 +141,14 @@ const TeacherActivePoll = () => {
         <div className="mb-6 flex items-center justify-between">
           <h2 className="text-2xl font-bold text-gray-900">Question</h2>
           <div className="flex items-center gap-2">
-            {poll && (
+            {/* {poll && (
               <button
                 onClick={handleEndPoll}
                 className="px-4 py-2 rounded-lg bg-red-600 text-white font-medium hover:bg-red-700 transition-colors"
               >
                 End & Next
               </button>
-            )}
+            )} */}
           </div>
         </div>
 
