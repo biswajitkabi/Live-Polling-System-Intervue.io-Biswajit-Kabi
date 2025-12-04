@@ -37,7 +37,7 @@ const RoleSelector = () => {
             Welcome to the <span className="font-bold">Live Polling System</span>
           </h1>
           <p className="text-gray-500 text-lg">
-            Select your role to continue
+            Please select the role that best describes you to begin using the live polling system
           </p>
         </div>
 
